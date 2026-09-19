@@ -1,0 +1,196 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: "sofa-modern-comfort",
+    name: "Contemporary 3-Seater Fabric Sofa",
+    category: "Living Room",
+    subCategory: "Sofas",
+    shortDescription: "Clean-lined silhouette with high-density resilient foam, solid wooden inner frame, and breathable warm upholstery.",
+    detailedDescription: "Designed for everyday family comfort and spacious Bhopal apartments, featuring reinforced joints, sturdy timber legs, and stain-resistant woven fabric.",
+    image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80",
+    materials: ["Solid Wood Frame", "High Resilient Foam", "Premium Woven Fabric"],
+    dimensions: "84\" W x 36\" D x 32\" H",
+    featured: true,
+    style: "Contemporary"
+  },
+  {
+    id: "bed-teak-cushioned",
+    name: "Solid Wood King Bed with Headboard",
+    category: "Bedroom",
+    subCategory: "Beds",
+    shortDescription: "Sturdy wooden frame with a gently upholstered headboard and integrated under-bed hydraulic storage option.",
+    detailedDescription: "Crafted with durable seasoned wood structure and finished with smooth natural polish to resist Bhopal climate fluctuations while providing lasting stability.",
+    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+    materials: ["Seasoned Hardwood", "Natural Matte Polish", "Plywood Sub-base"],
+    dimensions: "76\" W x 82\" L x 44\" H",
+    featured: true,
+    style: "Warm Minimalist"
+  },
+  {
+    id: "wardrobe-four-door-walnut",
+    name: "4-Door Master Wardrobe with Mirror",
+    category: "Storage",
+    subCategory: "Wardrobes",
+    shortDescription: "Spacious multi-compartment wardrobe with dedicated hanging rails, internal drawers, and locker section.",
+    detailedDescription: "Engineered for optimal organization with deep shelving, silent-close hinges, and elegant wood grain texture that matches modern bedroom decor.",
+    image: "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80",
+    materials: ["Marine Grade Engineered Board", "Laminate Finish", "Stainless Steel Fittings"],
+    dimensions: "72\" W x 24\" D x 84\" H",
+    featured: true,
+    style: "Modern Functional"
+  },
+  {
+    id: "tv-unit-minimalist-fluted",
+    name: "Low-Profile Wall-Mount TV Console",
+    category: "Living Room",
+    subCategory: "TV Units",
+    shortDescription: "Sleek entertainment unit with fluted wooden drawer fronts, wire management grommets, and open shelf for set-top boxes.",
+    detailedDescription: "Provides a clean, decluttered focal point in your drawing room with concealed soft-close runners and warm walnut tone.",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    materials: ["High-Density Wood Fibre", "Textured Laminate", "Concealed Hardware"],
+    dimensions: "70\" W x 16\" D x 18\" H",
+    featured: true,
+    style: "Modern"
+  },
+  {
+    id: "dining-solid-wood-6seater",
+    name: "6-Seater Solid Wood Dining Set",
+    category: "Dining",
+    subCategory: "Dining Sets",
+    shortDescription: "Robust solid wood tabletop paired with 6 ergonomically curved wooden chairs with cushioned seating.",
+    detailedDescription: "Hand-finished edges with moisture-resistant protective coat, made to withstand daily dinner routines and festive hosting.",
+    image: "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=80",
+    materials: ["Solid Hardwood", "Cushioned Fabric Seats", "Scratch-Resistant Polish"],
+    dimensions: "66\" L x 36\" W x 30\" H",
+    featured: true,
+    style: "Classic Indian Contemporary"
+  },
+  {
+    id: "door-grand-teak-entrance",
+    name: "Carved Teakwood Main Entrance Door",
+    category: "Doors",
+    subCategory: "Main Doors",
+    shortDescription: "Substantial solid wood main door with grooved architectural accents and provisions for multi-point security locks.",
+    detailedDescription: "A statement entrance door crafted from seasoned wood to maintain dimensional stability against heat and monsoon moisture. Available in custom dimensions to suit your doorway frame.",
+    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+    materials: ["Seasoned Teak / Solid Timber", "PU Weather-Coat Finish", "Brass Hardware Accents"],
+    dimensions: "38\" W x 84\" H x 1.75\" T (Custom sizes available)",
+    featured: true,
+    isDoor: true,
+    style: "Architectural Statement"
+  },
+  {
+    id: "dresser-compact-vanity",
+    name: "Contemporary Dressing Table with LED Mirror",
+    category: "Bedroom",
+    subCategory: "Dressers",
+    shortDescription: "Space-conscious vanity table with full-view backlit mirror, cosmetics organizer drawers, and matching stool.",
+    detailedDescription: "Designed to tuck into bedroom corners without crowding walkways, featuring dual storage tiers and smooth melamine finish.",
+    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80",
+    materials: ["Engineered Wood", "Silvered Mirror", "Soft-Close Slides"],
+    dimensions: "36\" W x 16\" D x 72\" H",
+    featured: true,
+    style: "Modern"
+  },
+  {
+    id: "storage-crockery-cabinet",
+    name: "Glass-Front Crockery & Display Cabinet",
+    category: "Storage",
+    subCategory: "Display Units",
+    shortDescription: "Multi-tier display cabinet with tempered glass doors, interior shelf illumination, and closed base storage.",
+    detailedDescription: "Perfect for formal dining or living spaces to showcase fine crockery, curios, and treasured keepsakes securely.",
+    image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=800&q=80",
+    materials: ["Tempered Glass", "Hardwood Frame", "Lacquered Finish"],
+    dimensions: "40\" W x 16\" D x 74\" H",
+    featured: true,
+    style: "Classic Contemporary"
+  },
+  // Dedicated Door Collection
+  {
+    id: "door-geometric-modern",
+    name: "Modern Horizontal Slotted Door",
+    category: "Doors",
+    subCategory: "Main Doors",
+    shortDescription: "Contemporary entrance door with recessed horizontal inlay strips and satin black metal handle.",
+    detailedDescription: "Sleek, minimalist design tailored for modern Indian residences looking for clean architectural aesthetics.",
+    image: "https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?auto=format&fit=crop&w=800&q=80",
+    materials: ["Flush Core", "Natural Wood Veneer", "Matte PU Clear Coat"],
+    dimensions: "36\" W x 81\" H x 1.5\" T",
+    featured: false,
+    isDoor: true,
+    style: "Modern Minimal"
+  },
+  {
+    id: "door-classic-paneled-interior",
+    name: "Classic 4-Panel Interior Room Door",
+    category: "Doors",
+    subCategory: "Interior Doors",
+    shortDescription: "Timeless raised panel design suitable for bedrooms, study rooms, and prayer areas.",
+    detailedDescription: "Provides acoustic damping and thermal insulation between rooms with traditional mouldings and stain options.",
+    image: "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&w=800&q=80",
+    materials: ["Moulded Timber Skin", "Solid Filler Core", "Durable Lacquer"],
+    dimensions: "32\" W x 81\" H x 1.25\" T",
+    featured: false,
+    isDoor: true,
+    style: "Timeless Classic"
+  },
+  {
+    id: "door-fluted-walnut-finish",
+    name: "Fluted Texture Luxury Wooden Door",
+    category: "Doors",
+    subCategory: "Designer Doors",
+    shortDescription: "Architectural door featuring vertical fluting that catches ambient light and creates rich texture.",
+    detailedDescription: "Ideal for upscale apartments and bungalows seeking a bespoke boutique hotel feel.",
+    image: "https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?auto=format&fit=crop&w=800&q=80",
+    materials: ["Solid Core", "Walnut Veneer", "Fluted Profiles"],
+    dimensions: "38\" W x 84\" H x 1.75\" T",
+    featured: false,
+    isDoor: true,
+    style: "Luxury Contemporary"
+  },
+  {
+    id: "door-double-entrance-grand",
+    name: "Double Leaf Grand Villa Door",
+    category: "Doors",
+    subCategory: "Main Doors",
+    shortDescription: "Symmetrical double-door configuration offering a wide ceremonial entry with brass push plates.",
+    detailedDescription: "Created for spacious bungalow and duplex entrances with heavy-duty pivots and weatherproof perimeter seals.",
+    image: "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=800&q=80",
+    materials: ["Solid Seasoned Hardwood", "Brass Fixtures", "Weather Stripping"],
+    dimensions: "60\" W (Total) x 84\" H x 1.75\" T",
+    featured: false,
+    isDoor: true,
+    style: "Traditional Elegance"
+  },
+  // Custom Furniture examples
+  {
+    id: "custom-wardrobe-loft",
+    name: "Custom Floor-to-Ceiling Wardrobe with Loft",
+    category: "Custom Furniture",
+    subCategory: "Custom Storage",
+    shortDescription: "Made-to-order bedroom storage spanning the entire wall height to eliminate dust traps and maximize capacity.",
+    detailedDescription: "Tailored to your room's exact wall dimensions, beam cutouts, and finish preferences during a showroom consultation.",
+    image: "https://images.unsplash.com/photo-1558997519-83ea9252def8?auto=format&fit=crop&w=800&q=80",
+    materials: ["Custom Selected Plywood / Laminates", "Hettich/Hafele Hardware", "Profile Lighting Ready"],
+    dimensions: "Customized to Your Room",
+    featured: false,
+    style: "Bespoke"
+  },
+  {
+    id: "custom-mandir-unit",
+    name: "Handcrafted Wooden Pooja Unit",
+    category: "Custom Furniture",
+    subCategory: "Pooja Units",
+    shortDescription: "Sacred space furniture with intricate bell inlays, drawer storage for incense, and warm ambient illumination.",
+    detailedDescription: "Built with reverence and precision carpentry, fitting harmoniously into dedicated prayer corners or living spaces.",
+    image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=800&q=80",
+    materials: ["Solid Wood Accents", "Laminate Carcass", "Brass Inlays"],
+    dimensions: "Customized according to layout",
+    featured: false,
+    style: "Heritage Inspired"
+  }
+];
+
+export const featuredProducts = products.filter(p => p.featured);
+export const doorProducts = products.filter(p => p.category === "Doors");
